@@ -1145,6 +1145,9 @@ input:checked + svg.checkbox-icon {
 }
 @media screen and (min-width: 429px) and (max-width: 768px) {
   /* tablet view */
+
+
+  -------------------------------------------------------------------------------------
   .submit-container input {
     padding: 10px;
   }
@@ -1229,6 +1232,7 @@ input:checked + svg.checkbox-icon {
     display: none;
   }
 }
+---------------------------------------------------------------------------------------------------------------------------------
 @media screen and (min-width: 769px) and (max-width: 1158px) {
   /* big tablets and desktop view */
   .hero-container {
@@ -1249,7 +1253,8 @@ input:checked + svg.checkbox-icon {
   /* desktop view */
   .menu,
   .menu-toggle,
-  .menu-container {
+  .menu-container,
+  .burger-menu {
     display: none;
   }
 }
